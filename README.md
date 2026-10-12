@@ -1,6 +1,6 @@
 # Python Programming assignment
 
-This repository contains Python programming practicals covering fundamental concepts, problem-solving techniques, and built-in data structures.
+This repository contains Python programming practicals covering fundamental concepts, problem-solving techniques.
 
 ## Topics Covered
 
