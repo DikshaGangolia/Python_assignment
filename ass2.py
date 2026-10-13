@@ -4,6 +4,7 @@ x = input("Enter a month: ").lower()
 if x in months:
     print(f"The number of days in {x} is {months[x]}.")
     n = input("Enter the number of rows: ")
+    
 ''' WAP to display the pattern of numbers given as follows:
 1
 1 2
@@ -20,6 +21,7 @@ for i in range(int(n) - 1, 0, -1):
     for j in range(1, i + 1):
         print(j, end="")
     print()
+    
 # WAP using while loop which prints sum of every fifth number from 0 to 500;
 sum = 0
 i = 0
@@ -28,6 +30,7 @@ while i <= 500:
         sum += i
     i += 1
 print(sum)
+
 # wap to display common character in the two strings
 def common_charcter(str1 , str2):
     common_char =[]
@@ -39,6 +42,7 @@ str1 = input("Enter first string: ")
 str2 = input("Enter second string: ")
 case = common_charcter(str1, str2)
 print(f"The common characters in the two strings are: {case}")
+
 # 2.5
 list1 = ['A','app','a','d','ke','th','doc','awa']
 list2 = ['v','tor','e','eps','ay',None,'le','n']
